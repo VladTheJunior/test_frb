@@ -1,0 +1,6 @@
+rust_input: crate::api
+rust_root: rust/
+dart_output: lib/src/rust
+full_dep: false
+rust_preamble: use std::net::Ipv4Addr;
+dart_preamble: import 'dart:io'; 
